@@ -1,0 +1,104 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 175px;
+  transition: box-shadow 0.35s ease-in-out;
+  border: 1px solid #d1dbe3;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  width: 200px;
+}
+.container:hover {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  min-width: 200px;
+}
+.container img {
+  width: 101%;
+  border-radius: 10px 10px 0 0;
+}
+.contentPart {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 15px;
+}
+.title {
+  margin: 0;
+  font-family: "IRANSans";
+  font-style: normal;
+  font-weight: 400;
+  text-align: right;
+  margin: 0;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.5px;
+  color: #026fc2;
+  margin-bottom: 15px;
+}
+.price {
+  margin: 0;
+  font-family: "IRANSans";
+  font-style: normal;
+  font-weight: 400;
+  text-align: right;
+  margin: 0;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: -0.5px;
+  color: black;
+  margin-bottom: 10px;
+}
+.addToCartBtn {
+  font-family: "IRANSans";
+  font-weight: 500;
+  line-height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #026fc2;
+  border: 1px solid #026fc2;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 9px 23px;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.35s ease-in-out;
+}
+.done {
+  font-family: "IRANSans";
+  font-weight: 500;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #00cf0a;
+  border: 1px solid #00cf0a;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 9px 23px;
+  width: 100%;
+  /* cursor: pointer; */
+  margin: 0;
+  transition: 0.35s ease-in-out;
+}
+.addToCartBtn:hover {
+  background: #026fc2;
+  color: #fff;
+}
+@media only screen and (max-width: 460px) {
+  .container {
+    width: 100%;
+    margin-left: 0;
+  }
+  .container img{
+    height: 200px;
+  }
+}

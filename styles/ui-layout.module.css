@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  padding: 0px 30px;
+}
+.contentContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1100px;
+}
+#opacityOn {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+#opacityOff {
+  opacity: 0;
+  transition: opacity 0.9s;
+}
+@media only screen and (max-width: 380px) {
+  .container {
+    padding: 0px 15px;
+  }
+}

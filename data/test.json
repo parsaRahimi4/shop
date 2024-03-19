@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "productName": "ماشین",
+    "price": "150",
+    "image": "/imgs/cart/car.jpg"
+  },
+  {
+    "id": 2,
+    "productName": "مبل",
+    "price": "50",
+    "image": "/imgs/cart/sofa.jpg"
+  },
+  {
+    "id": 3,
+    "productName": "تلویزیون",
+    "price": "100",
+    "image": "/imgs/cart/tv.jpg"
+  }
+]

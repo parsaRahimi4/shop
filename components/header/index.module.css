@@ -1,0 +1,130 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 15px 0;
+}
+.linkContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  /* width: 30%; */
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 90%;
+}
+.navbar img {
+  margin-left: 30px;
+}
+.burgerMenu {
+  display: none;
+}
+.links {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #2e4e9a;
+  font-family: "IRANSans";
+  font-style: normal;
+  margin-left: 20px;
+}
+.authenticationContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 120px;
+  margin-left: 30px;
+}
+.authenticationContainer p {
+  margin: 0;
+  font-size: 20px;
+  font-family: "IRANSans";
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.authenticationContainer div {
+  width: 0.5px;
+  background-color: rgba(0, 0, 0, 0.247);
+  height: 15px;
+}
+.shopingIconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+.shopNumber {
+  height: 18px;
+  padding: 7px;
+  background-color: red;
+  position: absolute;
+  top: -8px;
+  right: -5px;
+  border-radius: 15px;
+  display: flex;
+  font-size: 10px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 700;
+  font-family: "IRANSans";
+}
+.burgerMenuContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 16px 74px -30px rgba(0, 0, 0, 0.4);
+}
+.burgerTopPart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  padding: 15px 10px;
+}
+.burgerLinksContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: auto;
+  padding: 60px 10px;
+}
+.burgerLinks {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #2e4e9a;
+  font-family: "IRANSans";
+  font-style: normal;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 460px) {
+  .linkContainer {
+    justify-content: center;
+    flex-direction: row-reverse;
+  }
+  .burgerMenu {
+    display: flex;
+    margin-right: 20px;
+  }
+  .links {
+    display: none;
+  }
+}

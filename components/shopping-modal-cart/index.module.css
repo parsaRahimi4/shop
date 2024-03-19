@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  width: 250px;
+  transition: box-shadow 0.35s ease-in-out;
+  border: 1px solid #d1dbe3;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.container:hover {
+  box-shadow: 0 2px 30px 5px #026fc2;
+}
+.contentPart {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.title {
+  margin: 0;
+  font-family: "IRANSans";
+  font-style: normal;
+  font-weight: 400;
+  text-align: right;
+  margin: 0;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.5px;
+  color: #026fc2;
+  margin-bottom: 15px;
+}
+.price {
+  margin: 0;
+  font-family: "IRANSans";
+  font-style: normal;
+  font-weight: 400;
+  text-align: right;
+  margin: 0;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: -0.5px;
+  color: black;
+  margin-bottom: 10px;
+}
+.removeIcon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+.removeIcon img {
+  cursor: pointer;
+}
+@media only screen and (max-width: 460px) {
+  .container {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 330px) {
+  .container > img {
+    width: 100px;
+    height: 120px;
+  }
+}
