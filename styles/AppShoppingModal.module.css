@@ -81,8 +81,10 @@
     transform: translateZ(0);
   }
 }
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 683px) {
   .cartsContainer {
+    align-items: center;
+    justify-content: flex-start;
     overflow-y: scroll;
     overflow-x: hidden;
     flex-wrap: unset;
